@@ -1,1 +1,30 @@
-<h1>Bienvenue sur la home page</h1>
+{% extends 'base.html.twig' %}
+{% block title %}Immo  vibe{% endblock %}
+{% block body %}
+    <div class="jumbotron text-center">
+        <h1>Immo vibe </h1>
+        <p>Quare talis improborum consensio non modo excusatione amicitiae tegenda non est sed potius supplicio omni vindicanda est, ut ne quis concessum putet amicum vel bellum patriae inferentem sequi; quod quidem, ut res ire coepit, haud scio an aliquando futurum sit. Mihi autem non minori curae est, qualis res publica post mortem meam futura, quam qualis hodie sit.</p>
+    </div>
+    <div class = "container">
+        <h2>Les derniers biens</h2>
+        <div class= "row flex">
+            {% for property in properties %}
+                <div class="col-3">
+                    <div class= "card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                               <a href="{{ path('property.show', {id: property.id, slug: property.slug }) }}">{{ property.title }}</a>
+                            </h5>
+                            <p class="card-text">
+                                {{ property.city }} ({{ property.postalCode }})
+                            </p>
+                            <div class="text-primary" style="font-weight: bold;font-size: 2rem">
+                                {{ property.formattedPrice }} €
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock body %}
