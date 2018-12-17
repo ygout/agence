@@ -24,7 +24,7 @@ composer install
 
 Don't forget to configure your .env at the root
 ````
-DATABASE_URL=mysql://localhost:localhost@127.0.0.1:3306/agence
+DATABASE_URL=mysql://db_user:db_password@127.0.0.1:3306/db_name
 ````
 Starting the server
 ````
