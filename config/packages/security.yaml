@@ -11,9 +11,12 @@ security:
             security: false
         main:
             anonymous: true
-
+            logout:
+                path: /logout
+                target: /
             # activate different ways to authenticate
-
+            form_login:
+                check_path: login
             http_basic: true
             # https://symfony.com/doc/current/security.html#a-configuring-how-your-users-will-authenticate
 
@@ -25,3 +28,7 @@ security:
     access_control:
          - { path: ^/admin, roles: ROLE_ADMIN }
         # - { path: ^/profile, roles: ROLE_USER }
+    encoders:
+        App\Entity\User:
+            algorithm: bcrypt
+            cost: 12
