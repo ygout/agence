@@ -42,6 +42,17 @@ class PropertyRepository extends ServiceEntityRepository
                 ->andWhere('p.surface > :minsurface')
                 ->setParameter('minsurface', $search->getMinSurface());
         }
+
+        if($search->getOptions()->count() > 0)
+        {
+
+            $query = $query
+                ->andWhere('po.id IN (:options)')
+                ->setParameter('options', $search->getOptions())
+            ;
+
+
+        }
         return $query
             ->getQuery();
     }
@@ -63,6 +74,7 @@ class PropertyRepository extends ServiceEntityRepository
     private function  findVisibleQuery(): QueryBuilder
     {
         return $this->createQueryBuilder('p')
+            ->leftJoin('p.options', 'po')
             ->where('p.sold = false');
     }
     // /**
