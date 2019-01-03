@@ -5,8 +5,9 @@ Projet Agence immobilière avec le framework symfony 4
 ## Prerequisites
 
 You need to install: 
-* composer: https://getcomposer.org/
-* php 7.x: http://php.net/manual/fr/install.php
+* Composer: https://getcomposer.org/
+* PHP 7.x: http://php.net/manual/fr/install.php
+* MySql
 
 ## Getting Started
 
@@ -19,7 +20,16 @@ git clone https://github.com/ygout/agence.git
 cd agence
 composer install
 ```
+### Database
 
+##### Create database
+````
+php bin/console doctrine:database:create
+````
+##### Populate database
+````
+php bin/console doctrine:migrations:migrate
+````
 ### Run server
 
 Don't forget to configure your .env at the root
