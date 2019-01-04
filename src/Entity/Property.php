@@ -37,6 +37,7 @@ class Property
     /**
      * @var File|null
      * @Vich\UploadableField(mapping="property_image", fileNameProperty="filename")
+     * @Assert\Image(mimeTypes="image/*")
      */
     private $imageFile;
     /**
