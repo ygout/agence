@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb2c9935-d675-4a37-b59d-439821d3b499" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/liip_imagine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/liip_imagine.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/properties/5c2e309e991de065522158.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/properties/5c2f644435cb9690725994.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/PropertyType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/PropertyType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Listener/ImageCacheSubscriber.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Listener/ImageCacheSubscriber.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/property/_property.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/property/_property.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/property/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/property/show.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -172,7 +165,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/property/show.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="740">
@@ -180,6 +173,15 @@
               <folding>
                 <element signature="e#12#26#0#Twig" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -268,6 +270,7 @@
         <option value="$PROJECT_DIR$/src/Form/PropertyType.php" />
         <option value="$PROJECT_DIR$/config/packages/liip_imagine.yaml" />
         <option value="$PROJECT_DIR$/templates/property/show.html.twig" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -417,103 +420,6 @@
               <item name="agence" type="b2602c69:ProjectViewProjectNode" />
               <item name="agence" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="agence" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agence" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agence" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agence" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agence" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agence" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agence" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agence" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agence" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agence" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agence" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agence" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agence" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agence" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-              <item name="thumb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agence" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agence" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-              <item name="thumb" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agence" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agence" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agence" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agence" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agence" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agence" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agence" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agence" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agence" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="property" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agence" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agence" type="462c0819:PsiDirectoryNode" />
-              <item name="translations" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -576,12 +482,12 @@
       <workItem from="1546017001052" duration="1960000" />
       <workItem from="1546185661905" duration="8373000" />
       <workItem from="1546524072898" duration="10732000" />
-      <workItem from="1546696741490" duration="1654000" />
+      <workItem from="1546696741490" duration="1767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63534000" />
+    <option name="totallyTimeSpent" value="63647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -641,9 +547,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -911,6 +814,13 @@
           <folding>
             <element signature="e#12#26#0#Twig" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
