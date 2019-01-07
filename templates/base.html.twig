@@ -19,11 +19,25 @@
                     <li class="nav-item">
                         <a class="nav-link  {% if current_menu is defined and current_menu =='properties' %} active {% endif %} " href="{{ path('property.index') }}">Acheter</a>
                     </li>
+                    {% if app.user %}
+                        <li class="nav-item">
+                            <a class="nav-link  {% if current_menu is defined and current_menu =='admin.properties' %} active {% endif %} " href="{{ path('admin.property.index') }}">Gérer les biens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  {% if current_menu is defined and current_menu =='admin.options' %} active {% endif %} " href="{{ path('admin.option.index') }}">Gérer les options</a>
+                        </li>
+                    {% endif %}
                 </ul>
                 {% if app.user %}
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a href="{{ path('logout') }}" class="nav-link"> Se déconnecter</a>
+                        </li>
+                    </ul>
+                {% else %}
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="{{ path('login') }}" class="nav-link"> Se connecter</a>
                         </li>
                     </ul>
                 {% endif %}

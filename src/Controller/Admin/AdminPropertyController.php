@@ -39,7 +39,10 @@
      public function index(): Response
      {
         $properties = $this->propertyRepository->findAll();
-        return $this->render('admin/property/index.html.twig', compact('properties'));
+        return $this->render('admin/property/index.html.twig',[
+            'current_menu' => 'admin.properties',
+            'properties'    => $properties,
+        ]);
      }
 
      /**
@@ -65,7 +68,8 @@
 
          return $this->render('admin/property/new.html.twig', [
              'property' => $property,
-             'form'     => $form->createView()
+             'form'     => $form->createView(),
+             'current_menu' => 'admin.properties'
          ]);
 
      }
@@ -88,7 +92,8 @@
          }
          return $this->render('admin/property/edit.html.twig', [
              'property' => $property,
-             'form'     => $form->createView()
+             'form'     => $form->createView(),
+             'current_menu' => 'admin.properties'
          ]);
      }
 
