@@ -22,13 +22,14 @@ composer install
 ```
 ### Database
 
-##### Create database
+##### Create database and structure (table)
 ````
 php bin/console doctrine:database:create
+php bin/console doctrine:migrations:migrate
 ````
 ##### Populate database
 ````
-php bin/console doctrine:migrations:migrate
+php bin/console doctrine:fixtures:load
 ````
 ### Run server
 
